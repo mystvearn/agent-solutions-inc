@@ -1,0 +1,25 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "health_tech_internal_detailed",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "I am from a health-tech company. Our hospital operations are getting bogged down. Specifically, I want to use an AI agent to optimize our internal IT support ticketing process, which currently takes days to resolve."}]
+      }
+    },
+    {
+      "eval_case_id": "retail_external_vague",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "I run a retail chain. I just want to apply agents to my company to help with customers. Can you help?"}]
+      }
+    },
+    {
+      "eval_case_id": "finance_internal_medium",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "I am in the financial services sector. I want to optimize the internal process of handling employee expense reports. Currently, it's very manual. People submit receipts and finance reviews them."}]
+      }
+    }
+  ]
+}

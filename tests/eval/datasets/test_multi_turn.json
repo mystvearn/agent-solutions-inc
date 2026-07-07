@@ -1,0 +1,39 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "test_multi_turn",
+      "agent_data": {
+        "agents": {
+          "planning_workflow": {
+            "agent_id": "planning_workflow",
+            "agent_type": "Workflow"
+          }
+        },
+        "turns": [
+          {
+            "turn_index": 0,
+            "events": [
+              {
+                "author": "user",
+                "content": {
+                  "parts": [{"text": "Hello, I am a retail business."}]
+                }
+              }
+            ]
+          },
+          {
+            "turn_index": 1,
+            "events": [
+              {
+                "author": "user",
+                "content": {
+                  "parts": [{"text": "I want to automate customer returns."}]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
