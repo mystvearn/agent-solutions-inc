@@ -218,3 +218,4 @@ tools/a2a-inspector/
 # Local session exports
 /*.json
 !agents-cli-manifest.yaml
+/assets/asi_youtube_full.mp4
