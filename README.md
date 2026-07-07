@@ -137,7 +137,7 @@ Antigravity did about 90% of the build, running gemini-3.1-pro at high effort be
 ### 2. Clone and install
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/mystvearn/agent-solutions-inc.git
 cd digital-consultant
 
 # Install agents-cli and its skills, then the project dependencies (via uv)
